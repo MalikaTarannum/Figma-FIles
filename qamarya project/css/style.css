@@ -1,0 +1,756 @@
+
+/* =====================crousal=============================== */
+.swiper-car.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    position: relative;
+    overflow: hidden;
+}
+.crousal {
+    background: black;
+    overflow: hidden;
+}
+.crousal .crousal-image {
+    position: relative;
+}
+.crousal .crousal-wrap{
+    display: flex;
+    align-items: center;
+}
+.crousal .crousal-content {
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 477px;
+    width: 100%;
+}
+.crousal .heading {
+    color: #FFF;
+    font-family: 'Gotham';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.crousal .para {
+    background: #000;
+    display: flex;
+    max-width: 218px;
+    padding: 12px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.crousal .para:hover {
+    background: #db2411;
+}
+.crousal .p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* =================elementor-top__section=============================== */
+.elementor-top__section {
+    overflow: hidden;
+    display: flex;
+}
+.elementor-top__section .icons{
+    font-size: 24px;
+}
+.elementor-top__section .container {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+.elementor-top__section .wrapper {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+.elementor-top__section .elementor-top-section-wrap {
+    display: flex;
+    border-left: 1px solid #6a6363;
+    flex: 1;
+    height: 100%;
+}
+.elementor-top__section .elementor_description {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.elementor-top__section .elementor_text {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.elementor-top__section .fa-fa-phone {
+    color: #000;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.elementor-top__section .fa-icons {
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+.elementor-top__section .elementor-icon__title {
+    margin-bottom: 14px;
+}
+.elementor-top__section .elementor--populated {
+    border-right: 1px solid #6a6363;
+    padding: 30px;
+    height: 100%;
+    max-width: 33.33%;
+    flex: 33.33%;
+}
+/* ========================services============================= */
+.services {
+    background: #000;
+    padding: 70px 0;
+    margin-bottom: 40px;
+}
+.services .elementor-widget-container-p {
+    display: flex;
+    align-items: flex-end;
+}
+.services .heading {
+    color: #FFF;
+    font-family: 'Gotham';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    max-width: 600px;
+    flex: 600px;
+}
+.services .services-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services .elementor_service_heading {
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.services .elementor-widget__wrap {
+    display: flex;
+   justify-content: space-between;
+}
+.services .elementor___section {
+    border: 1px solid white;
+    border-radius: 50%;
+    max-width: 200px;
+    height: 150px;
+    padding: 30px;
+}
+.services .elementor___section:not(:last-child) {
+   margin-right: 20px;
+}
+.services .para1 {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 630px;
+    letter-spacing: 0.25px;
+}
+.services .elementor__button {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.services .elementor__button:hover {
+   color: #db2411;
+}
+.services .services-right-content {
+    display: flex;
+    justify-content: space-between;
+}
+.elementor-heading-title .text1{
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text1 {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.elementor-section-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.elementor-column-span {
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.elementor-column {
+    margin-bottom: 10px;
+    height: 100%;
+}
+.inner-section--wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.inner-section--wrapper {
+    margin-bottom: 40px;
+}
+/* =========================inner-section=========================== */
+.inner-section {
+    margin-bottom: 50px;
+}
+.inner-section .elementor-container {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.inner-section .overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 232px;
+    width: 100%;
+}
+.inner-section .elementor__column:hover .overlay {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+}
+.inner-section .overlay {
+    display: none;
+}
+
+.inner-section .overlay_circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #db2411;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.inner-section .overlay--heading{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.inner-section .p1 {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.inner-section .fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inner-section .elementor--heading {
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.inner-section .text1 {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.25px;
+}
+.inner-section .elementor-column-span {
+    font-family: 'Gotham';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+/* ========================elementer_description========================= */
+.elementer_description {
+    margin-bottom: 60px;
+}
+.elementer_description .elementor--heading {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.elementer_description .para1 {
+    color: #000;
+    font-family: 'Overpass';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* ========================inner-section-two============================ */
+.inner-section-two .elementor-section-image {
+    display: flex;
+    margin: 0 -10px;
+}
+.inner-section-two .elementor-container-two {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+}
+.inner-section-two .elementor-column-two {
+    margin-bottom: 10px;
+    position: relative;
+}
+/* .inner-section-two .elementor-column-two:hover .overlay {
+    display: block;
+}
+.inner-section-two .overlay {
+    display: none;
+} */
+.inner-section-two .elementor--heading {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.inner-section-two .text1 {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.25px;
+    color: #171616;
+}
+.inner-section-two .text1:hover {
+    color: #db2411;
+}
+.inner-section-two .elementor-column-span {
+    font-family: 'Gotham';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.inner-section-two {
+    margin-bottom: 70px;
+}
+.inner-section-two .overlay__two {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 232px;
+    width: 100%;
+}
+.inner-section-two .overlay__two {
+    display: none;
+}
+.inner-section-two .elementor-column-two:hover .overlay__two {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+}
+.inner-section-two .overlay__circle {
+    border-radius: 50%;
+    background: #db2411;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.inner-section-two .overlay--heading{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.inner-section-two .p1 {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+}
+.inner-section-two .fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inner-section-two .elementor--heading {
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+/* ========================element-description-title========================= */
+.element-description-title {
+    margin-bottom: 40px;
+    position: relative;
+}
+.element-description-title .element-description-text-wraap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 987px;
+    width: 100%;
+}
+.element-description-image {
+    opacity: 0.1;
+}
+.element-description-title .elementor-heading-titles {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.elemente-description-title .para11 {
+    color: #000;
+    font-family: 'Overpass';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 75%;
+}
+/* ======================elementor-car-section========================= */
+.elementor-car-section {
+    background: #000;
+    padding: 40px 0;
+    margin-bottom: 80px;
+    height: 395px;
+}
+.elementor-car-section .container {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+.elementor-car-section .wrapper {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+.elementor-car-section .car-section-wrap {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+.elementor-car-section .car-section-wrap {
+    display: flex;
+}
+.elementor-car-section .element-car-image {
+    flex: 1;
+    height: 100%;
+}
+.elementor-car-section .elementor__descriptions {
+    max-width: 440px;
+    flex: 440px;
+}
+.elementor-car-section .heading {
+    color: #FFF;
+    font-family: 'Gotham';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.elementor-car-section .p1 {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 353px;
+    letter-spacing: 0.25px;
+}
+/* ==================elementer-third-description===================== */
+.swiper_logo{
+    max-width: 300px;
+}
+.elementer-third-description {
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+.elementer-third-description .pre_title {
+    color: #000;
+    font-family: 'overpass';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.elementer-third-description .pre-title {
+    color: #000;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.elementer-third-description .wrapp {
+    padding: 20px;
+}
+.elementer-third-description .swiper_logo {
+    max-width: 260px;
+}
+/* ===================-content-wrapper================================ */
+.-content-wrapper {
+    position: relative;
+    margin-bottom: 50px;
+}
+.-content-wrapper .elementor-button_text {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+    max-width: 130px;
+    display: block;
+    /* padding-left: 24px; */
+}
+.-content-wrapper .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    background: #db2411;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.-content-wrapper .elementor-button-wrapper:hover {
+    background: black;
+}
+.-content-wrapper .vamtamtheme-.vamtam-theme-arrow-left {
+    color: #FFF;
+}
+/* ====================elementor-column--gap=========================== */
+.elementor-column--gap .heading-costum {
+    color: #000;
+    font-family: 'Gotham';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+}
+.elementor-column--gap .tabs-google {
+    color: brown;
+    font-family: 'Gotham';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.elementor-column--gap .contents-wrapper {
+    display: flex;
+}
+.elementor-column--gap .p11 {
+    color: #4C4C4C;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.25px;
+    max-width: 274px;
+    margin-bottom: 20px;
+}
+.elementor-column--gap .content__wrap {
+    max-width: 33.33%;
+    flex: 33.33%;
+    border: 1px solid #a49e9e;
+    padding: 60px;
+}
+.elementor-column--gap .content__wrap:not(:last-child) {
+    margin-right: 30px;
+}
+.elementor-column--gap i.fas.fa-quote-left {
+    font-size: 70px;
+}
+.elementor-column--gap .elementor-heading-title {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.elementor-column--gap .icon-wrapper {
+    margin-bottom: 20px;
+}
+/* -----------------------descriptions----------------------------- */
+
+.descriptions .first__heading {
+    color: #171616;
+    font-family: 'Gotham';
+    font-size: 189px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.descriptions .second__heading {
+    color: #171616;
+    font-family: 'Gotham';
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+}
+.descriptions {
+    margin-bottom: 50px;
+}
+/* ------------------icons_with-content---------------------- */
+.icons_with-content {
+    border-top: 1px solid #a29797;
+}
+.icons_with-content .wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons_with-content .icon_with_text_wrap {
+    max-width: 33.33%;
+    flex: 33.33%;
+    border: 1px solid #a49b9b;
+    padding: 40px;
+    min-height: 174px;
+}
+.icons_with-content .icon-icon {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+.icons_with-content .active {
+    color: #db2411;
+}
+.icons_with-content .title {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+/* ------------------------image_with__text------------------------ */
+.image_with__text {
+    background: #000;
+    margin-bottom: 60px;
+}
+.image_with__text .image__wrap {
+    display: flex;
+}
+.image_with__text .right__content {
+    max-width: 630px;
+    flex: 630px;
+}
+.image_with__text .image_img {
+    flex: 1;
+    padding-right: 40px;
+    height: 434px;
+}
+.image_with__text .headinng {
+    color: #d8d8d8;
+    font-family: 'Gotham';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    margin-bottom: 24px;
+}
+.image_with__text .pp1 {
+    color:#acacac;
+    font-family: 'Overpass';
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.image_with__text .pp1 a {
+    color:#acacac;
+}
+.image_with__text .pp1 a:hover{
+    color:brown;
+}
+/* -------------------Premium-services--------------------------- */
+.Premium-services {
+    margin-bottom: 70px;
+}
+.Premium-services .services__heading {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.Premium-services .para11 {
+    color: #000;
+    font-family: 'Overpass';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+

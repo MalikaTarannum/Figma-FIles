@@ -1,0 +1,269 @@
+/* ---------------services_two_contents-------------- */
+.services_two_contents {
+    margin-bottom: 70px;
+}
+.services_two_contents .content__wrap {
+    display: flex;
+    align-items: center;
+}
+.services_two_contents .content__forms {
+    max-width: 504px;
+    flex: 504px;
+}
+.services_two_contents .content_text {
+    flex: 1;
+    padding-right: 60px;
+}
+.services_two_contents .service_heading {
+    color: #171616;
+    font-family: 'Gotham';
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services_two_contents .para1 {
+    color: #5a5454;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: justify;
+}
+.services_two_contents .icons_wrap {
+    display: flex;
+    border-top: 1px solid #a29595;
+    border-bottom: 1px solid #b0a6a6;
+    padding: 30px;
+}
+.services_two_contents .fas.fa-phone {
+    font-size: 20px;
+}
+.services_two_contents .phn {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    display: block;
+}
+.services_two_contents .pp {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.services_two_contents .appointment {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.services_two_contents .appointment_arrow {
+    color: #FFF;
+    margin-left: 14px;
+    display: block;
+}
+.services_two_contents .button {
+    background: #171616;
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_two_contents .button:hover {
+    background: #db2411;
+   
+}
+/* =========================services2_collection_section=========================== */
+.services2_collection_section {
+    margin-bottom: 50px;
+}
+.services2_collection_section .collection-container {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.services2_collection_section .overlay_collection {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 232px;
+    width: 100%;
+}
+.services2_collection_section .collection__column:hover .overlay_collection {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+}
+.services2_collection_section .overlay_collection {
+    display: none;
+}
+
+.services2_collection_section .overlay_circle {
+    border-radius: 50%;
+    background: #db2411;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.services2_collection_section .overlay-collect-heading{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.services2_collection_section .para1{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.services2_collection_section .fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.services2_collection_section .collection--heading {
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.services2_collection_section .text11 {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.25px;
+}
+.services2_collection_section .elementor-column-span {
+    font-family: 'Gotham';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.services2_collection_section .collection-section-images {
+    display: flex;
+    align-items: center;
+}
+/* =========================services2_collection_two=========================== */
+.services2_collection_two .pree-span {
+    margin: 0;
+}
+.services2_collection_two .collection__column {
+    margin-bottom: 15px;
+}
+.services2_collection_two .spaan {
+    min-height: 56px;
+    height: 1px;
+}
+.services2_collection_two {
+    margin-bottom: 50px;
+}
+.services2_collection_two .collection-section-images {
+    display: flex;
+    align-items: center;
+}
+.services2_collection_two .collection-container {
+    max-width: 25%;
+    flex: 25%;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.services2_collection_two .overlay_collection {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 232px;
+    width: 100%;
+}
+.services2_collection_two .collection__column:hover .overlay_collection {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+}
+.services2_collection_two .overlay_collection {
+    display: none;
+}
+
+.services2_collection_two .overlay_circle {
+    border-radius: 50%;
+    background: #db2411;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.services2_collection_two .overlay-collect-heading{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.services2_collection_two .para1{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.services2_collection_two .fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .services2_collection_two .collection--heading {
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+} */
+/* .services2_collection_two .text11 {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.25px;
+} */
+.services2_collection_two .elementor-column-span {
+    font-family: 'Gotham';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,376 @@
+/*==========================collection-hero-banner starts=========================*/
+
+.collection-hero-banner .description {
+    color:#1E385E;
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 308px;
+}
+.collection-hero-banner .title {
+    color: #1E385E;
+    font-size: 40px;
+    margin-bottom: 25px;
+    max-width: 286px;
+}
+.collection-hero-banner .hero-banner-content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.collection-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+@media screen and (max-width: 990px) {
+    .collection-hero-banner .title {
+        font-size: 26px;
+        margin-bottom: 15px;
+        max-width: 208px;
+        text-align: center;
+    }
+    .collection-hero-banner .description {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-banner-section .hero-banner-background-image-mobile {
+        display: block;
+    }
+}
+/*==========================collection-hero-banner ends=========================*/
+
+
+.collection-banner-bottom .image {
+    border-radius: 8px;
+}
+.collection-banner-bottom .pre-banner-text-image-wrap {
+    border-radius: 6px;
+    background: #F1F0E8;
+    max-width: 260px;
+    flex: 260px;
+}
+.collection-banner-bottom .pre-banner-main-wrapper.flex {
+    justify-content: center;
+    border-bottom: 1px solid #1E385E;
+    padding-bottom: 30px;
+}
+.collection-banner-bottom .pre-banner-text {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 12px;
+    flex: 1;
+}
+.collection-banner-bottom .pre-banner-text-image-wrap:not(:last-child) {
+    margin-right: 30px;
+}
+.collection-banner-bottom .pre-banner-image {
+    max-width: 124px;
+    flex: 124px;
+}
+.collection-banner-bottom {
+    margin: 30px 0;
+    overflow: hidden;
+}
+@media screen and (max-width: 1279px) {
+    .collection-banner-bottom .pre-banner-text {
+        font-size: 12px;
+        padding: 0 5px;    
+    }
+}
+@media screen and (max-width: 990px) {
+    .collection-banner-bottom .pre-banner-text-image-wrap:not(:last-child) {
+        margin-right: 10px;
+    }
+    .collection-banner-bottom .pre-banner-image {
+        max-width: 95px;
+        flex: 95px;
+    }
+    .collection-banner-bottom .pre-banner-text {
+        font-size: 10px;
+        padding: 0 6px;
+    }
+}
+
+/*==========================collection-accordian-section starts=========================*/
+.collection-accordian-section {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.collection-accordian-section .collection-alpha-header-title {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+.collection-accordian-section .collection-alpha-header-wrap.flex {
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.collection-accordian-section .collection-alpha-header-logo-wrap {
+    max-width: 15px;
+    flex: 15px;
+    margin-right: 13px;
+}
+.collection-accordian-section .product-image-content-wrap-wrapper {
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.collection-accordian-section .product-image {
+    margin-bottom: 16px;
+    position: relative;
+}
+.collection-accordian-section .product-image-content-wrap {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.collection-accordian-section .image {
+    border-radius: 18px;
+}
+.collection-accordian-section .product-content {
+    color: rgba(30, 56, 94, 0.60);
+    font-family: Gotham;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.collection-accordian-section .product-para {
+    color: #1E385E;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 8px;
+    max-width: 223px;
+}
+.collection-accordian-section .product-price {
+    color: #1E385E;
+    font-family: Gotham;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.collection-accordian-section .product-para-wrap {
+    align-items: unset;
+    margin-bottom: 8px;
+}
+
+.collection-accordian-section .circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.collection-accordian-section .circle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 17px;
+    height: 17px;
+}
+.collection-accordian-section .circle:hover {
+    border: 1px solid #3b0404;
+    border-radius: 50%;
+}
+.collection-accordian-section .blue {
+    background: #4952C5;
+}
+.collection-accordian-section .black {
+    background: black;
+}
+.collection-accordian-section .green {
+    background: #8BC781;
+}
+.collection-accordian-section .purple {
+    background: #692269;
+}
+.collection-accordian-section .orange {
+    background: #F36C30;
+}
+.collection-accordian-section .product-circle {
+    margin-right: 10px;
+}
+.collection-accordian-section .circle:not(:last-child) {
+    margin-right: 10px;
+}
+.collection-accordian-section .collection-alpha-title-text {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.collection-accordian-section .collection-alpha-title-warp.flex {
+    justify-content: space-between;
+}
+.collection-accordian-section .collection-alpha-radio-text {
+    color: #1E385E;
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: 8px;
+}
+.collection-accordian-section .collection-alpha-content-wrap.flex {
+    margin-bottom: 8px;
+}
+.collection-accordian-section .collection-alpha-main-wrapper {
+    margin-bottom: -15px;
+    flex: 1;
+}
+.collection-accordian-section .collection-alpha-parent-wrap {
+    border-bottom: 1px solid rgba(30, 56, 94, 0.24);
+    margin-bottom: 15px;
+}
+.collection-accordian-section .collection-beta-main-wrapper {
+    max-width: 952px;
+    flex: 952px;
+}
+.collection-accordian-section .collection-accordian-wrapper.flex {
+    align-items: unset;
+}
+.collection-accordian-section .collection-accordian-wrapper {
+    margin: 0 -35px;
+}
+.collection-accordian-section .collection-alpha-main-wrapper , .collection-beta-main-wrapper {
+    padding: 0 35px;
+}
+.collection-accordian-section .collection-alpha-header-right-logo-wrap {
+    max-width: 9px;
+    flex: 9px;
+    margin-left: 8px;
+}
+.collection-alpha-header-wrap-right-child.flex {
+    align-items: unset;
+}
+.collection-accordian-section .product-image-absolute-contentbtn {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.collection-accordian-section .product-para-price-wrap.flex {
+    align-items: unset;
+    justify-content: space-between;
+}
+.collection-accordian-section .product-image-absolute-content-button {
+    display: flex;
+    max-width: 288px;
+    padding: 18px 70px;
+    justify-content: center;
+    align-items: center;
+    background: #F9F8F6;
+    margin: 0 auto;
+}
+.collection-accordian-section .product-image-absolute-content-title {
+    color: #F9F8F6;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.collection-accordian-section .product-image-absolute-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 394px;
+    width: 100%;
+}
+.collection-accordian-section .product-image-content-two-wrapper {
+    margin: 0 -15px 50px;
+    align-items: unset;
+}
+.collection-accordian-section .product-image-content-two-wrap {
+    padding: 0 15px;
+}
+.collection-accordian-section .collection-alpha-color-content-wrap-alpha {
+    margin-right: 30px;
+}
+@media screen and (max-width: 1279px) {
+    .collection-accordian-section .product-image-content-wrap {
+        max-width: 50%;
+        flex: 50%;
+        padding: 0 6px;
+    }
+    .collection-accordian-section .collection-alpha-main-wrapper {
+        flex: 257px;
+        max-width: 257px;
+    }
+    .collection-accordian-section .collection-beta-main-wrapper {
+        flex: 1;
+    }
+    .collection-accordian-section .collection-accordian-wrapper {
+        margin: 0 -7px;
+    }
+    .collection-accordian-section .collection-alpha-main-wrapper, .collection-beta-main-wrapper {
+        padding: 0 7px;
+    }
+    .collection-accordian-section .product-image-content-wrap-wrapper {
+        margin: 0 -6px;
+    }
+    .collection-accordian-section .product-image-absolute-content-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .collection-accordian-section .product-image-absolute-content-button {
+        max-width: 218px;
+    }
+    .collection-accordian-section .product-image-absolute-contentbtn {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .collection-accordian-section .collection-alpha-header-wrap-right-child  {
+        display: none;
+    }
+    .collection-accordian-section .collection-alpha-header-wrap.flex {
+        justify-content: center;
+    }
+    .collection-accordian-section .collection-alpha-main-wrapper {
+        display: none;
+    }
+    .collection-accordian-section .product-image-content-wrap-wrapper {
+        margin: 0 -6px;
+    }
+    .collection-accordian-section .product-image-content-wrap {
+        margin-bottom: 15px;
+    }
+    .collection-accordian-section .product-para-price-wrap.flex {
+        display: block;
+    }
+    .collection-accordian-section .product-para-wrap {
+        margin-bottom: 12px;
+    }
+    .collection-accordian-section .image-comtent-mobile-hidden {
+        display: none;
+    }
+}
+/*==========================collection-accordian-section ends=========================*/

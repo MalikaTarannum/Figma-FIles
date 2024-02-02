@@ -1,0 +1,171 @@
+.gallery-collecction {
+    margin-bottom: 100px;
+}
+.gallery-collecction .gallery-collection-image-wrap-parent {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.gallery-collecction .gallery-collection-image-wrap {
+    overflow: hidden;
+    height: 268px;
+}
+.gallery-collecction .gallery-collection-main-wrapper.flex {
+    flex-wrap: wrap;
+    margin: 0 -15px -50px;
+}
+.gallery-collecction .gallery-collection-image-wrap:hover .gallery-collection-image {
+    transform: scale(1.2);
+}
+.gallery-collecction .gallery-collection-image {
+    transition: all 0.5s ease-in-out;
+}
+
+
+.gallery-banner {
+    margin-bottom: 100px;
+}
+.gallery-banner .gallery-banner-beta-wrap .flex {
+    justify-content: space-between;
+}
+.gallery-banner-main-wrapper {
+    position: relative;
+}
+.gallery-banner .gallery-banner-alpha-wrap::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -13px;
+    background: #000;
+}
+.gallery-banner .gallery-banner-alpha-wrap , .gallery-banner-beta-wrap {
+    max-width: 50%;
+    flex: 50%;
+}
+.gallery-banner .gallery-banner-beta-image-wrap {
+    max-width: 127px;
+    flex: 127px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 30px;
+}
+.gallery-banner .gallery-banner-beta-wrap  {
+    justify-content: space-between;
+}
+.gallery-banner .gallery-alpha-button-text {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: 1.4;
+    margin-right: 10px;
+}
+.gallery-banner .gallery-banner-alpha-text {
+    color: #4c4c4c;
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.28px;
+    margin-bottom: 20px;
+    max-width: 521px;
+}
+.gallery-banner .gallery-banner-alpha-button-wrap {
+    background: #000;
+    padding: 19px 30px 18px;
+    max-width: 308px;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+.gallery-banner .gallery-banner-alpha-button-wrap:hover {
+    background-color: #DB2411;
+}
+.gallery-banner i.fa.fa-long-arrow-right {
+    color: #fff;
+}
+
+.appointment-details {
+    background: #000;
+}
+.appointment-details .appointment-details-main-wrapper {
+    padding: 160px 30px;
+}
+.appointment-details label {
+    display: block;
+}
+.appointment-details input[type="text"] , .appointment-details input[type="email"] , .appointment-details textarea , .appointment-details input[type="file"] , .appointment-details input[type="date"] , .appointment-details input[type="time"] {
+    color: #69727d;
+    text-transform: capitalize; 
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+}
+.appointment-details textarea {
+    width: 100%;
+}
+.appointment-details .appointment-details-content-wrap {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.appointment-details .appointment-details-content-items {
+    padding: 0 15px;
+    max-width: 33.33%;
+    flex: 33.33%;
+}
+.appointment-details .appointment-details-title {
+    margin-bottom: 40px;
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.appointment-details  .label-text {
+    color: #69727d;
+    text-transform: capitalize;
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 18px;
+}
+.appointment-details .appointment-details-personal-wrapper , .appointment-details .appointment-details-vehicle-wrapper , .appointment-details .appointment-details-date-time-wrapper , .appointment-details-special-offers-wrapper {
+    margin-bottom: 120px;
+}
+.appointment-details input[type="email"] , .appointment-details input[type="text"] , .appointment-details textarea , .appointment-details input[type="file"] {
+    color: #FFFFFF;
+}
+.appointment-details .appointment-details-content-item {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 15px;
+}
+.appointment-details .vehicle-input-margin {
+    margin-bottom: 70px;
+}
+.appointment-details .appointment-details-button-text {
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+.appointment-details .appointment-details-button-wrap:hover {
+    background: #DB2411;
+    color: #FFFFFF;
+}
+.appointment-details .appointment-details-button-wrap {
+    background: #FFFFFF;
+    padding: 19px 50px;
+    max-width: 191px;
+    transition: all 0.2s ease-in-out;
+}
+.appointment-details .appointment-details-button-wrap:hover .appointment-details-button-text {
+    color: #FFFFFF;
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('../fonts/MuseoSans-100.woff') format('woff2'),
+        url('../fonts/MuseoSans-100.woff2') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('../fonts/MuseoSans-300.woff') format('woff2'),
+        url('../fonts/MuseoSans-300.woff2') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('../fonts/MuseoSans-500.woff') format('woff2'),
+        url('../fonts/MuseoSans-500.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('../fonts/MuseoSans-700.woff') format('woff2'),
+        url('../fonts/MuseoSans-700.woff2') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+.pop-up .pop-up-main-wrap {
+    display: flex;
+    /* justify-content: center; */
+}
+.pop-up .pop-up-image-wrap {
+    max-width: 370px;
+    flex: 370px;
+    height: 100%;
+}
+.pop-up .pop-up-content-wrap {
+    background: #000;
+    max-width: 413px;
+    flex: 413px;
+    height: 100%;
+    padding: 51px 0;
+    position: relative;
+}
+a.close-image {
+    display: block;
+}
+.pop-up .pop-up-close-image {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+.pop-up .title-wrap {
+    max-width: 318px;
+    height: 104px;
+    margin: 0 auto 24px;
+}
+.pop-up .title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Museo Sans 700';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.pop-up .description {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Museo Sans 300';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+    margin-bottom: 24px;
+}
+.pop-up .pop-up-input-wrap {
+    max-width: 290px;
+    margin: 0 auto 24px;
+}
+.pop-up .pop-up-input-name , .pop-up-input-email {
+    border: 1px solid #FFF;
+    padding: 0 10px;
+    height: 100%;
+}
+.pop-up .pop-up-input-name {
+    margin-bottom: 10px;
+}
+.pop-up input[type="name"] , input[type="email"] {
+    color: #FFF;
+    font-family: 'Museo Sans 300';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+    width: 290px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.pop-up button {
+    color: #262628;
+    text-align: center;
+    font-family: 'Museo Sans 300';
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    width: 137px;
+    height: 37px;
+    cursor: pointer;
+}
+.pop-up .pop-up-button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+.pop-up .pop-up-text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop-up .pop-up-text-wrap p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Museo Sans 300';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    max-width: 246px;
+    height: 32px;
+ }
+.pop-up .pop-up-text-wrap span {
+    text-decoration: underline;
+ }

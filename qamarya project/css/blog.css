@@ -1,0 +1,253 @@
+.blog-banner {
+    margin-bottom: 80px;
+}
+.blog-banner .blog-banner-main-wrapper-parent {
+    display: flex;
+}
+.blog-banner .blog-banner-main-title-wrap {
+    font-family: 'Overpass';
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog-banner .blog-banner-content-title {
+    font-family: 'Overpass';
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #171616;
+    letter-spacing: 0.28px;
+    line-height: 1.2;
+    transition: all 0.5s ease-in-out;
+}
+.blog-banner .blog-banner-content-title:hover {
+    color: #DB2411;
+}
+.blog-banner .blog-banner-content-read-more {
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #171616;
+}
+.blog-banner i.fa.fa-angle-double-right {
+    font-size: 12px;
+    color: #171616;
+}
+.blog-banner .blog-banner-content-read-more-wrap:hover .blog-banner-content-read-more , .blog-banner .blog-banner-content-read-more-wrap:hover .fa-angle-double-right {
+    color: #DB2411;
+}
+.blog-banner .blog-banner-content-read-more , .blog-banner .fa-angle-double-right{
+    transition: all 0.2s ease-in-out;
+}
+.blog-banner .blog-banner-content-read-more {
+    margin-right: 8px;
+}
+.blog-banner .blog-banner-content-comment {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ADADAD;
+    margin-bottom: 12px;
+    display: block;
+}
+.blog-banner .blog-banner-content-description {
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 16px;
+    color: #777777;
+    letter-spacing: 0.29px;
+}
+.blog-banner .blog-banner-content-title-wrap {
+    margin-bottom: 8px;
+}
+.blog-banner .blog-banner-content-wrapper {
+    margin-bottom: 20px;
+    max-width: 393px;
+}
+.blog-banner .blog-banner-image-wrap {
+    margin-bottom: 30px;
+    min-height: 262px;
+    height: 1px;
+}
+.blog-banner .blog-banner-main-wrapper {
+    margin: 0 -15px;
+}
+.blog-banner .blog-banner-image-content-wrapper {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+.hero-banner .hero-banner-gamma-description-title , .hero-banner-gamma-title-wrap {
+    font-family: 'Overpass';
+    font-weight: 800;
+    font-size: 18px;
+    color: #4C4C4C;
+    margin-bottom: 20px;
+}
+.hero-banner .hero-banner-alpha-wrapper {
+    margin-bottom: 30px;
+}
+.hero-banner .hero-banner-beta-description {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 18px;
+    color: #4C4C4C;
+    letter-spacing: 0.29px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.hero-banner .hero-banner-beta-description-anchor {
+    color: #171616;
+}
+.hero-banner .hero-banner-gamma-decription-wrap {
+    margin-bottom: 30px;
+}
+.hero-banner .hero-banner-background-image-wrap {
+    position: relative;
+}
+.hero-banner .hero-banner-content-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 780px;
+    width: 100%;
+}
+.hero-banner .hero-banner-content-pre-title {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.29px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.hero-banner .hero-banner-content-title {
+    font-family: 'Overpass';
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hero-banner .hero-banner-feedback-author-box-wrap-wrapper-parent.flex {
+    justify-content: space-between;
+}
+.hero-banner .hero-banner-feedback-social-icons-wrapper {
+    margin: 0 -15px;
+}
+.hero-banner .hero-banner-feedback-authorname-date {
+    margin-right: 25px;
+}
+.hero-banner .footer-beta-icons {
+    padding: 0 15px;
+}
+.hero-banner .fab.fa-facebook , .hero-banner .fab.fa-instagram , .hero-banner .fab.fa-tiktok , .hero-banner .fab.fa-youtube{
+    color: #FFFFFF;
+}
+.hero-banner .hero-banner-feedback-authorname-date , .hero-banner .hero-banner-feedback-authorname-commnent , .hero-banner .hero-banner-feedback-authorname-box {
+    color: #FFFFFF;
+}
+.hero-banner .hero-banner-small-container-wrap {
+    max-width: 830px;
+    margin: 0 auto;
+}
+.hero-banner .hero-banner-feedback-button-wrap {
+    background-color: #171616;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 211px;
+}
+.hero-banner .hero-banner-feedback-button-wrap:hover {
+    background-color: #DB2411;
+}
+.hero-banner .hero-banner-feedback-btn {
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.29px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.hero-banner .hero-banner-feedback-author-image-box {
+    max-width: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.hero-banner .hero-banner-feedback-authorname-box {
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.hero-banner .hero-banner-navigation-main-wrap {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 10px;
+}
+.hero-banner .hero-banner-navigation-title {
+    transition: all 0.2s ease-in-out;
+}
+.hero-banner .hero-banner-navigation-wrap:hover .hero-banner-navigation-title {
+    color: #DB2411;
+}
+.hero-banner .hero-banner-navigation-wrapper {
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.hero-banner .border-navigation {
+    border-right: 1px solid;
+}
+.hero-banner .hero-banner-feedback-name-wrap , .hero-banner .hero-banner-feedback-email-wrap , .hero-banner .hero-banner-feedback-website-wrap , .hero-banner .hero-banner-feedback-comment-wrap {
+    color: #656161;
+    text-transform: capitalize;
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.hero-banner .hero-banner-feedback-checkbox-wrap  {
+    text-transform: lowercase;
+    margin-bottom: 30px;
+}
+.hero-banner input[type="checkbox"] {
+    margin-right: 15px;
+}
+.blog-last-section {
+    background: #000;
+}
+.blog-last-section .blog-banner-image-wrap {
+    width: 390px;
+    height: 468px;
+}
+.blog-last-section .blog-last-section-main-wrap {
+    padding: 160px 30px;
+    margin: 0 -15px;
+}
+.blog-last-section .blog-banner-content-wrapper {
+    max-width: 390px;
+    min-height: 236px;
+}
+.blog-last-section .blog-banner-content-title {
+    color: #FFFFFF;
+}
+.blog-last-section .blog-banner-content-read-more {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: underline;
+}

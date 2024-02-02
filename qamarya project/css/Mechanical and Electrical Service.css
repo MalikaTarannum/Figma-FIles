@@ -1,0 +1,166 @@
+.services_banner {
+    overflow: hidden;
+}
+/* ---------------services_contents-------------- */
+.services_contents {
+    margin-bottom: 70px;
+}
+.services_contents .content__wrap {
+    display: flex;
+    align-items: center;
+}
+.services_contents .content__forms {
+    max-width: 504px;
+    flex: 504px;
+}
+.services_contents .content_text {
+    flex: 1;
+}
+.services_contents .heaading {
+    color: #171616;
+    font-family: 'Gotham';
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services_contents .para11 {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: justify;
+}
+.services_contents .icons_wrap {
+    display: flex;
+    border-top: 1px solid #a29595;
+    border-bottom: 1px solid #b0a6a6;
+    padding: 30px;
+}
+.services_contents .fas.fa-phone {
+    font-size: 20px;
+}
+.services_contents .phn {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Gotham';
+    font-weight: 700;
+    display: block;
+}
+.services_contents .pp {
+    color: #171616;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.services_contents .appointment {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.services_contents .appointment_arrow {
+    color: #FFF;
+    margin-left: 14px;
+    display: block;
+}
+.services_contents .button {
+    background: #171616;
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_contents .button:hover {
+    background: #db2411;
+   
+}
+/* ---------------collection_section--------------------- */
+.collection_section .elementor-section-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: -24px;
+}
+.collection_section .elementor-container {
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 24px;
+}
+.collection_section .overlay_service {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 280px;
+    width: 100%;
+}
+.collection_section .elementor__column {
+    position: relative;
+    padding-bottom: 8px;
+}
+.collection_section .pree-span {
+    margin: 0;
+}
+.collection_section .p1 {
+    color: #FFF;
+    font-family: 'Overpass';
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.collection_section .fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.collection_section .elementor__column:hover .overlay_service {
+    display: block;
+    /* opacity: 1;
+    visibility: visible; */
+    transition: all 0.5s ease-in-out;
+}
+.collection_section .overlay_service {
+    display: none;
+}
+
+.collection_section .overlay_circle {
+    border-radius: 50%;
+    background: #db2411;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.collection_section .overlay-service-heading{
+    color: #FFF;
+    font-family: 'Overpass';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.collection_section .spaan {
+    font-family: 'Gotham';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    min-height: 80px;
+    height: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+

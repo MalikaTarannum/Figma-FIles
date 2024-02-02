@@ -1,0 +1,119 @@
+.cart {
+    overflow-x: auto;
+}
+.cart, .cart-add {
+    margin-bottom: 80px;
+}
+.cart .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart .cart-image {
+    width: 70px;
+}
+
+.cart td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+.cart td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+.cart td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+.cart td:nth-child(4),
+.cart td:nth-child(5),
+.cart td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+.cart .cart-input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.cart .cart-header {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+.cart .cart-data {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 18px 0;
+    font-family: 'Overpass';
+}
+.cart .fa-times-circle {
+    font-size: 18px;
+}
+.cart .cart-datas {
+    font-family: 'Overpass';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.cart-add .cart-coupon-title, .cart-add .subtotal-title {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.cart-add .cart-coupon-input {
+    border: 1px solid #e2e9e1;
+    padding: 10px 20px;
+    margin-right: 20px;
+    width: 300px;
+    text-transform: capitalize;
+}
+.cart-add .cart-coupon-btn, .cart-add .normal {
+    padding: 12px 20px;
+    background: #088178;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Overpass';
+    cursor: pointer;
+}
+.cart-add .cart-add-main-wrapper {
+    justify-content: space-between;
+    align-items: unset;
+}
+.cart-add .subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+.cart-add .sub-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cart-add .subtotal-data {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Overpass';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width: 990px) {
+    .cart-add .cart-add-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .cart-add .subtotal, .cart-add .coupon {
+        width: 100%;
+    }
+    .cart-add .coupon {
+        margin-bottom: 20px;
+    }
+}

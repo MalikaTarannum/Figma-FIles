@@ -1,0 +1,98 @@
+.shipping-bar {
+    background: #CCDB2D;
+}
+.shipping-bar .shipping-main-wrapper  {
+    justify-content: center;
+    padding: 10px 0;
+}
+.shipping-bar .shipping-bar-text {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.shipping-bar .shipping-bar-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #1E385E;
+    margin: 0 24px;
+}
+@media screen and (max-width: 767px) {
+    .shipping-bar .shipping-bar-text {
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .shipping-bar .shipping-bar-dot {
+        margin: 0 8px;
+    }
+    .shipping-bar .shipping-main-wrapper {
+        padding: 13px 0;
+    }
+}
+/*=========================== shipping-bar ends ===================================*/
+
+/*=========================== header starts ===================================*/
+.header .header-menu-items-mobile-icon {
+    display: none;
+}
+.header .header-main-wrapper {
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.header .header-menu-items-wrapper {
+    max-width: 267px;
+    flex: 267px;
+}
+.header .header-items {
+    color: #1E385E;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header .social-icons {
+    width: 15px;
+    height: 15px;
+}
+.header .social-icons:not(:last-child) {
+    margin-right: 16px;
+}
+.header .heeder-menu-items {
+    margin: 0 -20px;
+}
+.header .header-menus {
+    padding: 0 20px;
+}
+.header .header-social-icons-wrapper {
+    max-width: 267px;
+    flex: 267px;
+    margin: 0 -18px;
+}
+.header .social-icon-common {
+    padding: 0 18px;
+}
+@media screen and (max-width: 767px) {
+    .header .header-menu-items-mobile-icon {
+        display: block;
+        max-width: 14px;
+        height: 14px;
+    }
+    .header .header-menu-items-desktop {
+        display: none;
+    }
+    .header .header-social-icons-wrapper.flex {
+        justify-content: flex-end;
+    }
+    .header .social-icon-common {
+        padding: unset;
+    }
+    .header .header-social-icons-wrapper {
+        margin: unset;
+    }
+    
+}

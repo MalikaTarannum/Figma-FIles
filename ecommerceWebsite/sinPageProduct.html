@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="icon" type="image/x-icon" href="/images/home/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://magictouchautogarage.com/wp-content/litespeed/js/fbbfec2a123c0bb4ab52fecae9d1fd6a.js?ver=2d6aa"></script>
+    <link rel="stylesheet" href="https://magictouchautogarage.com/wp-content/litespeed/css/9d77a350cec8465a6404d240057a40fb.css?ver=90a68">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="wrapper">
+                <div class="header-main-wrapper flex">
+                    <div class="header-logo-wrap">
+                        <a href="" class="header-logo-image">
+                            <img src="./img/logo.png" class="header-image">
+                        </a>
+                    </div>
+                    <div class="header-list-items-wrap">
+                        <ul id="navibar" class="header-list-items flex active">
+                            <li class="header-list">
+                                <a href="./index.html" class="header-items">home</a>
+                            </li>
+                            <li class="header-list">
+                                <a href="./shop.html" class="header-items active">shop</a>
+                            </li>
+                            <li class="header-list">
+                                <a href="./blog.html" class="header-items">blog</a>
+                            </li>
+                            <li class="header-list">
+                                <a href="./about.html" class="header-items">about</a>
+                            </li>
+                            <li class="header-list">
+                                <a href="./contact.html" class="header-items">contact</a>
+                            </li>
+                            <li class="header-list">
+                                <a href="./cart.html" class="header-items">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </a>
+                            </li>
+                            <a href="#" id="close"><i class="fa fa-times"></i></a>
+                        </ul>
+                    </div>
+                    <div class="header-mobile-icon">
+                        <a href="./cart.html" class="header-items">
+                            <i class="fa fa-shopping-bag"></i>
+                        </a>
+                        <div class="header-list">
+                            <a href="" class="header-items">
+                                <i id="bar" class="fa fa-outdent"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="container">
+            <div class="wrapper">
+                <div class="card-content-image-wrapper flex">
+                    <div class="card-main-wrapper">
+                        <div class="card-image-slider">
+                            <img src="./img/products/f1.jpg" class="card-image" id="imagebox">
+                        </div>
+                        <div class="card-image-preview flex">
+                            <div class="card-image-parent">
+                                <img src="./img/products/f1.jpg" class="card-image-pre" onclick="clickme(this)">
+                            </div>
+                            <div class="card-image-parent">
+                                <img src="./img/products/f2.jpg" class="card-image-pre" onclick="clickme(this)">
+                            </div>
+                            <div class="card-image-parent">
+                                <img src="./img/products/f3.jpg" class="card-image-pre" onclick="clickme(this)">
+                            </div>
+                            <div class="card-image-parent">
+                                <img src="./img/products/f4.jpg" class="card-image-pre" onclick="clickme(this)">
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="card-content-main-wrapper">
+                        <span class="card-content-pre-title">home / t-shirts</span>
+                        <h2 class="card-content-title">men's fashion t-shirt</h2>
+                        <div class="card-content-size-wrap">
+                            <span class="card-content-price">$139.00</span>                                
+                            <select name="size">size
+                                <option value="select size">select size</option>
+                                <option value="small">small</option>
+                                <option value="medium">medium</option>
+                                <option value="large">large</option>
+                                <option value="extra large">extra large</option>
+                            </select>
+                            <div class="card-content-select-wrapper flex">
+                                <input type="number" value="1">
+                                <div class="card-button-btn">
+                                    <button class="btn">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-decription-wrap">
+                            <h3 class="card-content-description-title">product details</h3>
+                            <p class="card-content-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate veritatis impedit laboriosam reprehenderit nobis temporibus, alias suscipit explicabo nihil officia deleniti illo voluptatum perspiciatis voluptas recusandae inventore, vero doloribus tenetur natus. Odit perspiciatis cupiditate ratione voluptatibus officia, iste esse porro nostrum iure, repellendus necessitatibus quidem temporibus optio, obcaecati fugiat soluta quam expedita commodi itaque!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="container">
+            <div class="wrapper">
+                <div class="product-alpha-wrapper">
+                    <div class="product-heading-wrap">
+                        <h1 class="product-head-title">featured products</h1>
+                        <h3 class="product-title-desc">summer collection new modern design</h3>
+                    </div>
+                    <div class="product-main-wrapper flex">
+                        <div class="product-child-wrapper">
+                            <div class="product-child-wrap">
+                                <div class="product-image-wrap">
+                                    <img src="./img/products/f1.jpg" class="product-img">
+                                </div>
+                                <div class="product-content-wrap">
+                                    <div class="product-titles-wrapper">
+                                        <span class="product-pre-title">adidas</span>
+                                        <h3 class="product-title">cartoon astronaut T-shirts</h3>
+                                    </div>
+                                    <div class="product-stars-wrap flex">
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-price-icon-wrap flex">
+                                        <span class="product-price">$78</span>
+                                        <div class="product-icon-wrap">
+                                            <a href="" class="product-icons">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-child-wrapper">
+                            <div class="product-child-wrap">
+                                <div class="product-image-wrap">
+                                    <img src="./img/products/f2.jpg" class="product-img">
+                                </div>
+                                <div class="product-content-wrap">
+                                    <div class="product-titles-wrapper">
+                                        <span class="product-pre-title">adidas</span>
+                                        <h3 class="product-title">cartoon astronaut T-shirts</h3>
+                                    </div>
+                                    <div class="product-stars-wrap flex">
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-price-icon-wrap flex">
+                                        <span class="product-price">$78</span>
+                                        <div class="product-icon-wrap">
+                                            <a href="" class="product-icons">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-child-wrapper">
+                            <div class="product-child-wrap">
+                                <div class="product-image-wrap">
+                                    <img src="./img/products/f3.jpg" class="product-img">
+                                </div>
+                                <div class="product-content-wrap">
+                                    <div class="product-titles-wrapper">
+                                        <span class="product-pre-title">adidas</span>
+                                        <h3 class="product-title">cartoon astronaut T-shirts</h3>
+                                    </div>
+                                    <div class="product-stars-wrap flex">
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-price-icon-wrap flex">
+                                        <span class="product-price">$78</span>
+                                        <div class="product-icon-wrap">
+                                            <a href="" class="product-icons">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-child-wrapper">
+                            <div class="product-child-wrap">
+                                <div class="product-image-wrap">
+                                    <img src="./img/products/f4.jpg" class="product-img">
+                                </div>
+                                <div class="product-content-wrap">
+                                    <div class="product-titles-wrapper">
+                                        <span class="product-pre-title">adidas</span>
+                                        <h3 class="product-title">cartoon astronaut T-shirts</h3>
+                                    </div>
+                                    <div class="product-stars-wrap flex">
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-price-icon-wrap flex">
+                                        <span class="product-price">$78</span>
+                                        <div class="product-icon-wrap">
+                                            <a href="" class="product-icons">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>            
+    <div class="newsletter">
+        <div class="full-container">
+            <div class="wrapper">
+                <div class="newsletter-main-wrapper">
+                    <div class="newsletter-image-wrap">
+                        <img src="./img/banner/b1.jpg" class="newsletter-image">
+                    </div>
+                    <div class="container">
+                        <div class="wrapper">
+                            <div class="newsletter-content-wrapper flex">
+                                <div class="newsletter-alpha-wrap">
+                                    <h2 class="newsletter-alpha-title">sign up for newsletters</h2>
+                                    <span class="newsletter-alpha-description">
+                                        Get E-mail-updates about our latest shop and <span class="newsletter-colored-text">special offers</span>
+                                    </span>
+                                </div>
+                                <div class="newsletter-beta-wrap">
+                                    <form class="newsletter-inputs flex">
+                                        <div class="newsletter-input-wrap">
+                                            <input type="email" placeholder="your email address">
+                                        </div>
+                                        <div class="newsletter-button-wrap">
+                                            <a href="" class="newsletter-btn">sign up</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="container">
+                <div class="footer-main-wrapper flex">
+                    <div class="footer-alpha-wrapper">
+                        <div href="" class="footer-alpha-logo-image">
+                            <img src="./img/logo.png" class="header-image">
+                        </div>
+                        <div class="footer-alpha-contacts-wrap">
+                            <h3 class="footer-title">contacts</h3>
+                            <div class="footer-alpha-contacts-description-wrap">
+                                <div class="footer-alpha-contacts-description-parent flex">
+                                    <span class="footer-alpha-contacts-description-title">address</span>
+                                    <p class="footer-alpha-contacts-description-detail">GT road-street-2-jutial</p>
+                                </div>
+                                <div class="footer-alpha-contacts-description-parent flex">
+                                    <span class="footer-alpha-contacts-description-title">phone</span>
+                                    <p class="footer-alpha-contacts-description-detail">+92 345678987654</p>
+                                </div>
+                                <div class="footer-alpha-contacts-description-parent flex">
+                                    <span class="footer-alpha-contacts-description-title">hours</span>
+                                    <p class="footer-alpha-contacts-description-detail">10:00-18:00,  mon-sat</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-alpha-social-icons-wrap">
+                            <h3 class="footer-title">follow us</h3>
+                            <div class="footer-alpha-social-icons flex">
+                                <div class="footer-alpha-social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="footer-alpha-social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="footer-alpha-social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <div class="footer-alpha-social-icon">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </div>
+                                <div class="footer-alpha-social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-beta-wrapper flex">
+                        <div class="footer-beta-child">
+                            <ul class="footer-beta-links">
+                                <h3 class="footer-title center-title">about</h3>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">about us</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">delivery information</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">privacy policy</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">terms and conditions</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-beta-child">
+                            <ul class="footer-beta-links">
+                                <h3 class="footer-title center-title">my account</h3>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">sign in</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">view cart</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">my wishlist</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">track my order</a>
+                                </li>
+                                <li class="footer-beta-link-item">
+                                    <a href="" class="footer-beta-items">help</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-gamma-wrapper">
+                        <h3 class="footer-title center-title">install app</h3>
+                        <span class="footer-gamma-text">from app store or google play</span>
+                        <div class="footer-gamma-images-wrap flex">
+                            <div class="footer-gamma-images">
+                                <img src="./img/pay/app.jpg" class="footer-gamma-image">
+                            </div>
+                            <div class="footer-gamma-images">
+                                <img src="./img/pay/play.jpg" class="footer-gamma-image">
+                            </div>
+                        </div>
+                        <span class="footer-gamma-text">secured payment gateways</span>
+                        <div class="footer-gamma-last-image">
+                            <img src="./img/pay/pay.png" class="footer-gamma-last-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickme(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+</body>
+</html>
